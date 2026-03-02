@@ -65,3 +65,12 @@ Lista de dependências (não possui bibliotecas externas).
 
 ```bash
 python generate_miniguia.py --tema "Reserva de Emergência"
+
+### 🔹 Gerar guia preenchido com config.json
+```bash
+python generate_miniguia.py --tema "Reserva de Emergência" --config config.json
+
+---
+Após executar, será criado automaticamente o arquivo:
+
+MINIGUIA.md
