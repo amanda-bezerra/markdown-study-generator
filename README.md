@@ -1,35 +1,3 @@
-# 📘 MiniGuia NotebookLM Generator
-
-🚀 Gerador automatizado de **MiniGuias de Estudo em Markdown** utilizando Python.  
-Ideal para estruturar conteúdos e organizar estudos com apoio de IA (como NotebookLM).
-
----
-
-## 🎯 Objetivo
-
-Este projeto permite gerar um caderno estruturado contendo:
-
-- 📚 Fontes de referência  
-- 🎯 Objetivos de estudo  
-- ❓ Perguntas estratégicas  
-- 🧠 Prompts reutilizáveis  
-- 📝 Resumo organizado  
-- 📖 Glossário de conceitos  
-
-Tudo em formato **Markdown**, pronto para usar no GitHub, Notion, Obsidian ou qualquer editor.
-
----
-
-## 📂 Estrutura do Projeto
-
-miniguia-notebooklm/
-│
-├── generate_miniguia.py 🐍 Script principal que gera o MiniGuia
-├── config.json ⚙️ Arquivo opcional para preencher automaticamente
-├── MINIGUIA.md 📄 Arquivo gerado com o resultado final
-├── README.md 📘 Documentação do projeto
-└── requirements.txt 📦 Dependências (somente biblioteca padrão)
-
 
 ---
 
@@ -65,12 +33,3 @@ Lista de dependências (não possui bibliotecas externas).
 
 ```bash
 python generate_miniguia.py --tema "Reserva de Emergência"
-
-### 🔹 Gerar guia preenchido com config.json
-```bash
-python generate_miniguia.py --tema "Reserva de Emergência" --config config.json
-
----
-Após executar, será criado automaticamente o arquivo:
-
-MINIGUIA.md
