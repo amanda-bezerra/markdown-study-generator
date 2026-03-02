@@ -1,0 +1,40 @@
+{
+  "fontes": [
+    "Cartilha de Educação Financeira - Banco Central",
+    "Guia do Investidor Iniciante - CVM",
+    "Artigo sobre Reserva de Emergência"
+  ],
+  "objetivos": [
+    "Entender o que é reserva de emergência",
+    "Definir quanto guardar",
+    "Escolher onde guardar com segurança"
+  ],
+  "perguntas_estrategicas": [
+    "Qual a diferença entre reserva e investimento?",
+    "Quantos meses de despesas devo guardar?",
+    "Onde investir com liquidez diária?"
+  ],
+  "prompts": {
+    "Direto": [
+      "Resuma os principais pontos sobre reserva de emergência.",
+      "Explique risco e liquidez com exemplo."
+    ],
+    "Aplicado": [
+      "Crie um plano para alguém que ganha R$ 3.000 por mês."
+    ]
+  },
+  "resumo_topicos": [
+    {
+      "titulo": "Reserva de Emergência",
+      "bullets": [
+        "Protege contra imprevistos",
+        "Ideal entre 3 a 6 meses de despesas",
+        "Prioriza segurança e liquidez"
+      ]
+    }
+  ],
+  "glossario": {
+    "Liquidez": "Facilidade de resgatar o dinheiro rapidamente.",
+    "Risco": "Possibilidade de perda financeira."
+  }
+}
